@@ -1,0 +1,66 @@
+name = Creg Profile
+description = Profile for the CREG
+core = 7.x
+files[] = creg_profile.profile
+files[] = creg_profile.install
+
+; Core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = field_ui
+dependencies[] = file
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = admin_views
+dependencies[] = breakpoints
+dependencies[] = ckeditor
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = path_breadcrumbs
+dependencies[] = date
+dependencies[] = ds
+dependencies[] = eck
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = field_group
+dependencies[] = filefield_sources
+dependencies[] = flexslider
+dependencies[] = google_tag
+dependencies[] = image_url_formatter
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = l10n_update
+dependencies[] = media
+dependencies[] = media_youtube
+dependencies[] = menu_attributes
+dependencies[] = metatag
+dependencies[] = module_filter
+dependencies[] = nodequeue
+dependencies[] = panels
+dependencies[] = pathauto
+dependencies[] = picture
+dependencies[] = print
+dependencies[] = quicktabs
+dependencies[] = references
+dependencies[] = smtp
+dependencies[] = token
+dependencies[] = transliteration
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = webform
+
+; Custom
+;dependencies[] = creg_core
