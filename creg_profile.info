@@ -30,7 +30,6 @@ dependencies[] = context
 dependencies[] = ctools
 dependencies[] = path_breadcrumbs
 dependencies[] = date
-dependencies[] = domain
 dependencies[] = ds
 dependencies[] = eck
 dependencies[] = email
