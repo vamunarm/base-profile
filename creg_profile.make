@@ -47,6 +47,9 @@ projects[ckeditor][type] = "module"
 projects[ckeditor][subdir] = "contrib"
 projects[context][version] = 3.7
 projects[context][type] = "module"
+projects[colorbox][subdir] = "contrib"
+projects[colorbox][version] = 2.13
+projects[colorbox][type] = "module"
 projects[context][subdir] = "contrib"
 projects[ctools][version] = 1.12
 projects[ctools][type] = "module"
@@ -147,6 +150,12 @@ projects[pathauto][subdir] = "contrib"
 projects[picture][version] = 2.13
 projects[picture][type] = "module"
 projects[picture][subdir] = "contrib"
+projects[popup][version] = 1.4
+projects[popup][type] = "module"
+projects[popup][subdir] = "contrib"
+projects[popup_onload][version] = 1.2
+projects[popup_onload][type] = "module"
+projects[popup_onload][subdir] = "contrib"
 projects[print][version] = 2.0
 projects[print][type] = "module"
 projects[print][subdir] = "contrib"
@@ -192,6 +201,9 @@ projects[webform][subdir] = "contrib"
 
 ; Libraries
 
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
+libraries[colorbox][destination] = "libraries"
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.7.0/ckeditor_4.7.0_standard.zip"
 libraries[ckeditor][destination] = "libraries"
