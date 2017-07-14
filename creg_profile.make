@@ -211,12 +211,6 @@ libraries[flexslider][download][type] = "file"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/zipball/master"
 libraries[flexslider][destination] = "libraries"
 
-; Module -custom
-;projects[creg_core][download][url] = ""
-;projects[creg_core][subdir] = "custom"
-;projects[creg_core][type] = "module"
-;projects[creg_core][download][branch] = "7.x-1.x"
-
 ; THEMES
 ; adminimal
 projects[adminimal_theme][version] = 1.24
@@ -231,8 +225,14 @@ projects[bootstrap][subdir] = "contrib"
 
 ; BOOTSTRAP Subtheme creg_theme
 
-;projects[creg_theme][subdir] = "custom"
-;projects[creg_theme][type] = "theme"
-;projects[creg_theme][download][type] = git
-;projects[creg_theme][download][branch] = 7.x-1.x
-;projects[creg_theme][download][url] = ""
+projects[creg_theme][subdir] = "custom"
+projects[creg_theme][type] = "theme"
+projects[creg_theme][download][type] = git
+projects[creg_theme][download][branch] = "7.x-1.x"
+projects[creg_theme][download][url] = "https://victormunar@bitbucket.org/victormunar/creg_theme.git"
+
+; Module -custom
+projects[creg_core][download][url] = "https://victormunar@bitbucket.org/victormunar/creg_core.git"
+projects[creg_core][subdir] = "custom"
+projects[creg_core][type] = "module"
+projects[creg_core][download][branch] = "7.x-1.x"
