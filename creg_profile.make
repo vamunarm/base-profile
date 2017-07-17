@@ -81,6 +81,9 @@ projects[entity][subdir] = "contrib"
 projects[entityreference][version] = 1.4
 projects[entityreference][type] = "module"
 projects[entityreference][subdir] = "contrib"
+projects[entityqueue][version] = 1.1
+projects[entityqueue][type] = "module"
+projects[entityqueue][subdir] = "contrib"
 projects[event_calendar][version] = 1.9
 projects[event_calendar][type] = "module"
 projects[event_calendar][subdir] = "contrib"
@@ -105,9 +108,15 @@ projects[gtranslate][type] = "module"
 projects[high_contrast][subdir] = "contrib"
 projects[high_contrast][version] = 1.3
 projects[high_contrast][type] = "module"
+projects[image_link_formatter][version] = 1.1
+projects[image_link_formatter][type]    = "module"
+projects[image_link_formatter][subdir]  = "contrib"
 projects[image_url_formatter][version] = 1.4
 projects[image_url_formatter][type]    = "module"
 projects[image_url_formatter][subdir]  = "contrib"
+# projects[imce][version] = 1.11
+# projects[imce][type]    = "module"
+# projects[imce][subdir]  = "contrib"
 projects[jquery_update][version] = 2.7
 projects[jquery_update][type] = "module"
 projects[jquery_update][subdir] = "contrib"
@@ -126,6 +135,9 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = 3.x-dev
 projects[media_youtube][type] = "module"
 projects[media_youtube][subdir] = "contrib"
+projects[media_ckeditor][version] = 2.1
+projects[media_ckeditor][type] = "module"
+projects[media_ckeditor][subdir] = "contrib"
 projects[menu_icons][version] = 3.0-beta4
 projects[menu_icons][type] = "module"
 projects[menu_icons][subdir] = "contrib"
@@ -196,11 +208,11 @@ projects[webform][version] = 4.15
 projects[webform][type] = "module"
 projects[webform][subdir] = "contrib"
 
-
-
-
 ; Libraries
 
+libraries[autoembed][download][type] = "file"
+libraries[autoembed][download][url] = "http://download.ckeditor.com/autoembed/releases/autoembed_4.7.1.zip"
+libraries[autoembed][destination] = "modules/contrib/ckeditor/plugins"
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
 libraries[colorbox][destination] = "libraries"
